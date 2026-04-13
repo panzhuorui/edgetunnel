@@ -1,7 +1,7 @@
 name: Upstream Sync
 on:
-  schedule:
-    - cron: "0 0 * * *" # 每天0点（UTC）同步
+ # schedule:
+ #   - cron: "0 0 * * *" # 每天0点（UTC）同步
   workflow_dispatch: # 允许手动触发
 jobs:
   sync_latest_from_upstream:
